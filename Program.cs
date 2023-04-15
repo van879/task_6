@@ -8,10 +8,10 @@ namespace task_6
 		{
 			int pictures = 52;
 			int picturesInRow = 3;
-			int rowsOfPictures = pictures / picturesInRow;
+			int filedRowsOfPictures = pictures / picturesInRow;
 			int remainsOfPictures = pictures % picturesInRow;
 
-			Console.WriteLine($"полных рядов - {rowsOfPictures}; останется картинок - {remainsOfPictures}");
+			Console.WriteLine($"полных рядов - {filedRowsOfPictures}; останется картинок - {remainsOfPictures}");
 		}
 	}
 }
